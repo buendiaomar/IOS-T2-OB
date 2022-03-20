@@ -21,6 +21,8 @@
 
 @property (nonatomic , weak) ViewController *firstVC;
 
+@property (nonatomic , weak) ViewController *thirdtVC;
+
 @property (nonatomic,copy)void(^selectedCountry)(NSString *);
 
 -(void)getLastCountry: (void(^)(NSString *))selectedCountry;

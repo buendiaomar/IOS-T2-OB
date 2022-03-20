@@ -15,6 +15,7 @@
 		0299E03527E3DDD50082C4AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0299E03327E3DDD50082C4AF /* LaunchScreen.storyboard */; };
 		0299E03827E3DDD50082C4AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299E03727E3DDD50082C4AF /* main.m */; };
 		0299E04027E3DE1B0082C4AF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299E03F27E3DE1B0082C4AF /* SecondViewController.m */; };
+		0299E04627E62CD30082C4AF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299E04527E62CD30082C4AF /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		0299E03727E3DDD50082C4AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0299E03E27E3DE1B0082C4AF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		0299E03F27E3DE1B0082C4AF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0299E04427E62CD30082C4AF /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		0299E04527E62CD30082C4AF /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				0299E03327E3DDD50082C4AF /* LaunchScreen.storyboard */,
 				0299E03627E3DDD50082C4AF /* Info.plist */,
 				0299E03727E3DDD50082C4AF /* main.m */,
+				0299E04427E62CD30082C4AF /* ThirdViewController.h */,
+				0299E04527E62CD30082C4AF /* ThirdViewController.m */,
 			);
 			path = SamplePracticeOB;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			files = (
 				0299E04027E3DE1B0082C4AF /* SecondViewController.m in Sources */,
 				0299E02D27E3DDD40082C4AF /* ViewController.m in Sources */,
+				0299E04627E62CD30082C4AF /* ThirdViewController.m in Sources */,
 				0299E02727E3DDD40082C4AF /* AppDelegate.m in Sources */,
 				0299E03827E3DDD50082C4AF /* main.m in Sources */,
 				0299E02A27E3DDD40082C4AF /* SceneDelegate.m in Sources */,

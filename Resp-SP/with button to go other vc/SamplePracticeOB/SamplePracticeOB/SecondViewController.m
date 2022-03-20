@@ -7,9 +7,11 @@
 
 #import "SecondViewController.h"
 #import "ViewController.h"
+#import "ThirdViewController.h"
+#import <UIKit/UIKit.h>
 
 NSString *selectedCountry = @"nationState";
-
+NSString *thirdVC = @"ThirdVC";
 
 
 @interface SecondViewController ()
@@ -41,6 +43,27 @@ NSString *selectedCountry = @"nationState";
     return countriesList;
     
 }
+
+
+- (IBAction)nextVC:(id)sender {
+    
+    ThirdViewController *thirdViewController =
+    [self.storyboard
+     instantiateViewControllerWithIdentifier:thirdVC];
+  
+    [self.navigationController pushViewController:thirdViewController animated:YES];
+    
+}
+
+
+
+
+
+
+
+
+
+
 /*
  TableView Methods
  */
@@ -64,7 +87,10 @@ didSelectRowAtIndexPath:(NSIndexPath *) indexPath {
     
     [tableView deselectRowAtIndexPath:indexPath  animated:false];
     [self.navigationController popToRootViewControllerAnimated:true];
-    self.firstVC.clickHereLabel.text = [self.countriesList objectAtIndex:indexPath.row ];
+    
+    self.thirdtVC.title = [self.countriesList objectAtIndex:indexPath.row ];
+    
+    //self.firstVC.clickHereLabel.text = [self.countriesList objectAtIndex:indexPath.row ];
     
     self.selectedCountry([self.countriesList objectAtIndex:indexPath.row]);
 }

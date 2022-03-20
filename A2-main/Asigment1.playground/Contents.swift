@@ -1,3 +1,6 @@
+//Omar Buendia
+
+
 import UIKit
 
 var greeting = "Hello, playground"
@@ -143,7 +146,6 @@ let q4:Int=4
  Can be a type of storage for values
  Can save var and lets
  */
-
 
 
 
